@@ -29,7 +29,7 @@ export default function Suche() {
   useEffect(() => {
     async function fetchSearch() {
       try {
-        const response = await fetch(`/api/uppercase?text=${eingabe}`); //auslesen der API zum suchbegriff eingabe
+        const response = await fetch(`/api/uppercase?text=${debouncedText}`); //auslesen der API zum suchbegriff eingabe
 
         //Fehlermeldung
         if (!response.ok) {
