@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
 
-import Layout from "../../components/Layout";
+import Layout from "./../components/Layout";
 
 const apiPath = "https://react.webworker.berlin/wp-json/wp/v2/";
 
