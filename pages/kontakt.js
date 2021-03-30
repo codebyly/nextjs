@@ -1,11 +1,11 @@
 import Layout from "../components/Layout";
-import NewsList from "../components/NewsList";
+// import NewsList from "../components/NewsList";
 
 export default function kontakt() {
   return (
     <Layout title="kontakt-seite">
       Kontaktseite
-      <NewsList />
+      {/* <NewsList /> */}
     </Layout>
   );
 }
